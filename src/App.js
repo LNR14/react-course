@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        Something is wrong as F
+        Something is wrong 
       </header>
     </div>
   );
