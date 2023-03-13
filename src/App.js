@@ -6,6 +6,7 @@ import FirstPage from './pages/FirstPage';
 import KrispyKreme from './pages/KrispyKreme';
 import TestingPage from './pages/TestingPage';
 import NoPage from "./pages/NoPage";
+import './icons/fontawesome'
 import './App.css';
 
 export default function App() {
