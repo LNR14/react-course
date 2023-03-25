@@ -11,7 +11,7 @@ export default function FirstPage() {
     <div className="App">
       <h3>React Facts</h3>
       <h4>React course - Project 1</h4>
-      <FontAwesomeIcon icon={faCircleDot} />
+      ` <FontAwesomeIcon icon={faCircleDot} />
       <hr/>
     </div>
   );
