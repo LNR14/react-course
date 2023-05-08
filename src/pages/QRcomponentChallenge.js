@@ -16,6 +16,9 @@ export default function TestingPage() {
                 <img src={QRcode} className="image1" alt="images" />
             </Col>
         </Row>
+        <Row>
+            <b>Improve your front-end skills by building projects </b>
+        </Row>
         </Container>
     </div>
   );
