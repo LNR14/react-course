@@ -17,6 +17,9 @@ const Layout = () => {
           <li>
             <Link to="/QRcomponent">QR component</Link>
           </li>
+          <li>
+            <Link to="/MultiStepForm">Multi Step Form</Link>
+          </li>
         </ul>
       </nav>
 

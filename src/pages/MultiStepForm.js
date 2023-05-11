@@ -1,20 +1,25 @@
 import React from 'react';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import {Container,Row,Col,Button} from 'react-bootstrap';
 import "./CSS/testing.css"
+import LeftColumn from '../components/MultiStepForm/LeftColumn';
 import QRcode from '../images/QRcomponentchallenge/image-qr-code.png' 
 
-export default function TestingPage() {
+export default function MultiStepForm() {
+
+
   return (
     <div className="App">
         <Container>
         <Row>
             <Col>
-                <h3>QR component challenge </h3>
+            <LeftColumn/>
+             </Col>
+            <Col>
+                <h2>Personal Info</h2>
                 <br></br>
-                <img src={QRcode} className="image1" alt="images" />
+                Please provide your name,email address and phone number
             </Col>
+
         </Row>
         <Row>
             <b>Improve your front-end skills by building projects </b>

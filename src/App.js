@@ -7,6 +7,7 @@ import KrispyKreme from './pages/KrispyKreme';
 import TestingPage from './pages/TestingPage';
 import CouchSurfing from './pages/CouchSurfing';
 import QRComponent from './pages/QRcomponentChallenge'
+import MultiStepform from'./pages/MultiStepForm'
 import NoPage from "./pages/NoPage";
 import './icons/fontawesome'
 import './App.css';
@@ -21,6 +22,7 @@ export default function App() {
           <Route path="/couchSurfing" element={<CouchSurfing/>} />
           <Route path="/testing" element={<TestingPage/>} />
           <Route path="/QRcomponent" element={<QRComponent/>} />
+          <Route path="/MultiStepForm" element={<MultiStepform/>} />
           <Route path="*" element={<NoPage />} />
 
         </Route>
