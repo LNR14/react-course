@@ -1,37 +1,18 @@
 import React from 'react';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import {Container,Row,Col,Button} from 'react-bootstrap';
 import "./CSS/testing.css"
+import LeftColumn from '../components/MultiStepForm/LeftColumn';
 import QRcode from '../images/QRcomponentchallenge/image-qr-code.png' 
 
 export default function MultiStepForm() {
+
+
   return (
     <div className="App">
         <Container>
         <Row>
             <Col>
-             <ol>
-                <li>Step 1
-                    <br/>
-                    YOUR INFO
-                </li>
-                <li>Step 2 
-                    <br/>
-                    SELECT PLAN
-                </li>                
-                <li>Step 3
-                    <br/>
-                    ADD-ONS
-                </li>
-                <li>Step 4
-                    <br/>
-                    SUMMARY
-                </li>
-                
-
-                
-             </ol>
+            <LeftColumn/>
              </Col>
             <Col>
                 <h2>Personal Info</h2>
