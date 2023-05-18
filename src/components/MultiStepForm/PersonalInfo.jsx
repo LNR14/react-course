@@ -24,10 +24,26 @@ const PersonalInfo = () => {
             <Row className="mb-3">
                 <Form.Group as={Col} md="4" controlId="validationCustom01">
                     <Form.label>Name</Form.label>
-
-
+                    <Form.Control
+                        required
+                        type="text"
+                        placeholder="First name"
+                        defaultValue="Mark"
+                    />
                 </Form.Group>
             </Row>
+            <Row className="mb-3">
+                <Form.Group as={Col} md="4" controlId="validationCustom01">
+                    <Form.label>Name</Form.label>
+                    <Form.Control
+                        required
+                        type="text"
+                        placeholder="First name"
+                        defaultValue="Mark"
+                    />
+                </Form.Group>
+            </Row>
+        </Form>
         </Form>
      </div>
     );
