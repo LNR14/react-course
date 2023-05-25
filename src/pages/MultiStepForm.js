@@ -11,20 +11,10 @@ export default function MultiStepForm() {
     <div className="App">
         <Container>
         <Row>
-            <Col>
             <LeftColumn/>
-             </Col>
-            <Col>
-                <h2>Personal Info</h2>
-                <br></br>
-                Please provide your name,email address and phone number
-            </Col>
-
-        </Row>
-        <Row>
-            <b>Improve your front-end skills by building projects </b>
-        </Row>
+            </Row>
         </Container>
+
     </div>
   );
 }

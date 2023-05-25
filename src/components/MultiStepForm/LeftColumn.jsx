@@ -1,5 +1,6 @@
 import React from "react";
 import {Container,Row,Col,Button} from 'react-bootstrap';
+import PersonalInfo from "./PersonalInfo"
 import { withRouter } from "react-router";
 
 const leftColumn = () => {
@@ -17,9 +18,22 @@ const leftColumn = () => {
             )
         
     return (
-        <ol>
-        {listItemsLeftColumnSteps}
-     </ol>
+        <div>
+            <Container>
+                <Row>
+                    <Col>
+                    <ol>
+                        {listItemsLeftColumnSteps}
+                    </ol>
+                    </Col>
+                    <Col>
+                        <PersonalInfo/>
+                    </Col>
+                </Row>
+                
+            </Container>
+
+     </div>
     );
   };
   export default leftColumn

@@ -54,7 +54,7 @@ const PersonalInfo = () => {
                         required
                         type="text"
                         placeholder="55-555-5555"
-                        defaultValue="eg. "
+                        defaultValue="eg."
                     />
                 </Form.Group>
             </Row>
